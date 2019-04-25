@@ -7,7 +7,14 @@
     <title>Friend Finder Survey</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        #container{
+            max-width: 960px;
+            margin: 0 auto;
+            margin-bottom: 100px;
+        }
+    </style>
 </head>
 <body>
     <div id="container">
@@ -27,106 +34,171 @@
             <hr class="my-4" />
             <div class="form-group">
                 <label>1. I enjoy rainy days!</label>
-                <select class="form-control">
-                    <option>Strongly Disagree</option>
-                    <option>Disagree</option>
-                    <option>Neither Agree nor Disagree</option>
-                    <option>Agree</option>
-                    <option>Strongly Agree</option>
+                <select id="number1" class="form-control">
+                    <option value=""></option>
+                    <option value="1">Strongly Disagree</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neither Agree nor Disagree</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Strongly Agree</option>
                 </select>
             </div>
             <div class="form-group">
                     <label>2. I'm a planner!</label>
-                    <select class="form-control">
-                        <option>Strongly Disagree</option>
-                        <option>Disagree</option>
-                        <option>Neither Agree nor Disagree</option>
-                        <option>Agree</option>
-                        <option>Strongly Agree</option>
+                    <select id="number2" class="form-control">
+                        <option value=""></option>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Neither Agree nor Disagree</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
                     </select>
             </div>
             <div class="form-group">
                 <label>3. I'd rather have a small group of close friends than a large group of acquaintances!</label>
-                <select class="form-control">
-                    <option>Strongly Disagree</option>
-                    <option>Disagree</option>
-                    <option>Neither Agree nor Disagree</option>
-                    <option>Agree</option>
-                    <option>Strongly Agree</option>
+                <select id="number3" class="form-control">
+                    <option value=""></option>
+                    <option value="1">Strongly Disagree</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neither Agree nor Disagree</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Strongly Agree</option>
                 </select>
             </div>
             <div class="form-group">
                 <label>4. I'd prefer someone complete a task or chore for me, instead of giving me a gift.</label>
-                <select class="form-control">
-                    <option>Strongly Disagree</option>
-                    <option>Disagree</option>
-                    <option>Neither Agree nor Disagree</option>
-                    <option>Agree</option>
-                    <option>Strongly Agree</option>
+                <select id="number4" class="form-control">
+                    <option value=""></option>
+                    <option value="1">Strongly Disagree</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neither Agree nor Disagree</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Strongly Agree</option>
                 </select>
             </div>
             <div class="form-group">
                 <label>5. People tend to say I look like I have it all together.</label>
-                <select class="form-control">
-                    <option>Strongly Disagree</option>
-                    <option>Disagree</option>
-                    <option>Neither Agree nor Disagree</option>
-                    <option>Agree</option>
-                    <option>Strongly Agree</option>
+                <select id="number5" class="form-control">
+                    <option value=""></option>
+                    <option value="1">Strongly Disagree</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neither Agree nor Disagree</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Strongly Agree</option>
                 </select>
             </div>
             <div class="form-group">
                 <label>6. I enjoy being frustrated with things I don't understand.</label>
-                <select class="form-control">
-                    <option>Strongly Disagree</option>
-                    <option>Disagree</option>
-                    <option>Neither Agree nor Disagree</option>
-                    <option>Agree</option>
-                    <option>Strongly Agree</option>
+                <select id="number6" class="form-control">
+                    <option value=""></option>
+                    <option value="1">Strongly Disagree</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neither Agree nor Disagree</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Strongly Agree</option>
                 </select>
             </div>
             <div class="form-group">
                 <label>7. Trying new things is hard for me.</label>
-                <select class="form-control">
-                    <option>Strongly Disagree</option>
-                    <option>Disagree</option>
-                    <option>Neither Agree nor Disagree</option>
-                    <option>Agree</option>
-                    <option>Strongly Agree</option>
+                <select id="number7" class="form-control">
+                    <option value=""></option>
+                    <option value="1">Strongly Disagree</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neither Agree nor Disagree</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Strongly Agree</option>
                 </select>
             </div>
             <div class="form-group">
                 <label>8. Reality TV is my favorite kind of television programming.</label>
-                <select class="form-control">
-                    <option>Strongly Disagree</option>
-                    <option>Disagree</option>
-                    <option>Neither Agree nor Disagree</option>
-                    <option>Agree</option>
-                    <option>Strongly Agree</option>
+                <select id="number8" class="form-control">
+                    <option value=""></option>
+                    <option value="1">Strongly Disagree</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neither Agree nor Disagree</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Strongly Agree</option>
                 </select>
             </div>
             <div class="form-group">
                 <label>9. I know if I stopped drinking Cold Brew I'd probably pay off my student loans faster, but I got to have some happiness.</label>
-                <select class="form-control">
-                    <option>Strongly Disagree</option>
-                    <option>Disagree</option>
-                    <option>Neither Agree nor Disagree</option>
-                    <option>Agree</option>
-                    <option>Strongly Agree</option>
+                <select id="number9" class="form-control">
+                    <option value=""></option>
+                    <option value="1">Strongly Disagree</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neither Agree nor Disagree</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Strongly Agree</option>
                 </select>
             </div>
             <div class="form-group">
-                    <label>10. My house/apartment is always clean.</label>
-                    <select class="form-control">
-                        <option>Strongly Disagree</option>
-                        <option>Disagree</option>
-                        <option>Neither Agree nor Disagree</option>
-                        <option>Agree</option>
-                        <option>Strongly Agree</option>
-                    </select>
-                </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+                <label>10. My house/apartment is always clean.</label>
+                <select id="number10" class="form-control">
+                    <option value=""></option>
+                    <option value="1">Strongly Disagree</option>
+                    <option value="2">Disagree</option>
+                    <option value="3">Neither Agree nor Disagree</option>
+                    <option value="4">Agree</option>
+                    <option value="5">Strongly Agree</option>
+                </select>
+            </div>
+            <button type="submit" id="survey-submit"  class="btn btn-primary">Submit</button>
         </form>
     </div>
+
+    <!-- Modal for friend -->
+    <div id="modal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <h4>Your Friend Match!</h4>
+            <div class="divider"></div>
+            <h5 id="friendMatch"></h5>
+            <img id="friendImage" class="materialboxed" style="max-width: 100%;height:auto;"src="">
+            <div class="modal-footer">
+                <a href="/" class="modal-action modal-close btn-flat">Return home!</a>
+            </div>
+        </div>
+        </div>  
+    </div>
+
+    <!-- Links to jQuery and Bootstrap -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        // Javascript to collect survey results.
+        $("#survey-submit").on("click", function(event) {
+          event.preventDefault();
+      
+          // Here we grab the form elements
+          var newFriend = {
+            name: $("#name").val().trim(),
+            photo: $("#image-link").val().trim(),
+            scores: [
+                $("#number1").val(),
+                $("#number2").val(),
+                $("#number3").val(),
+                $("#number4").val(),
+                $("#number5").val(),
+                $("#number6").val(),
+                $("#number7").val(),
+                $("#number8").val(),
+                $("#number9").val(),
+                $("#number10").val()
+            ]
+          };
+      
+        console.log(newFriend);
+      
+        // posts the User's Input to the friends.js
+        $.post("/api/friends", newFriend, function(data) {
+                console.log(data)
+      			$("#friendMatch").html(data.name);
+		    	$("#friendImage").attr("src", data.photo);
+                $("#modal").modal("toggle");
+      
+        });
+    })
+</script>
 </body>
 </html>
